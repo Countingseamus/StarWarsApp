@@ -24,7 +24,7 @@ Needed:
 Decided:
 1. Consulted API documentation here https://swapi.co/documentation#starships
 2. Console Application provided means for user to enter input and see output.
-3. Visual Studio and C# deemed appropriate given basic requirements.
+3. Visual Studio 2017 and C# deemed appropriate given basic requirements.
 4. Inputs should be Distance to be travelled (input by user), time ship can travel without stopping for resupply (in Starship Consumables) 
 in days (common denominator), and speed of ship (MGLT). 
 First step was to work out how many days each ship can travel without stopping for resupply. See parserUtility.ParseNumberOfDays()
@@ -72,11 +72,12 @@ ii. Decided to create StarshipLogisticsCalculator class to handle all calculatio
 5. Unit Tests
 Unit tested the Controllers and Utilities that contained the logic.
 Did not unit test Models as there is no logic to test or the LogisticsProgram as it required user input and private methods.
+Used MSTest and Moq.
 
 Notes:
 Avoided static methods as I prefer to follow a OOP approach and even do static methods would be fine for this basic program I decided against them for better practice.
 
 Improvements:
 HTTPClient could be implemented better for greater abstraction or at least unit testability.
-Dependency Injection and abstraction to avoid newing up so many objects.
+Dependency Injection & abstraction to avoid newing up so many objects and provide greater flexibility in future and testability.
 
