@@ -3,11 +3,11 @@ A Specific Program that runs Starship calculations based on user input and data 
 Informs User, given their specified input distance, how many resupply stops are required for each Starship
 
 # Requirements
-A console Application
-The application will take string input from user. Input should represent a distance in mega lights (MGLT).
-User wants to know for all SW star ships , to cover a given distance, how many stops for resupply are required.
-The output should be a collection of all the star ships and the total amount of stops required to make the distance between the planets.
-Documentation, Tests and Instructions on application.
+- A console Application
+- The application will take string input from user. Input should represent a distance in mega lights (MGLT).
+- User wants to know for all SW star ships , to cover a given distance, how many stops for resupply are required.
+- The output should be a collection of all the star ships and the total amount of stops required to make the distance between the planets.
+- Documentation, Tests and Instructions on application.
 
 # API
 Base url: https://swapi.co/
