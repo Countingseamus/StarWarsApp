@@ -34,7 +34,7 @@ result of first step was 0 then assumed no stops needed as there was renewable r
 
 # Design & Implementation
 Clean code and SOLID principles are important to me and hope that my implementation reflects that.
-I especially focused on the SRP which lead to the code being a little longer than it needed to be for this basic application 
+I especially focused on the SRP which led to the code being a little longer than it needed to be for this basic application 
 but at the same time I think this principle is extremely important so is always worth it in the long run.
 This allows for code to be extensible, maintainnable and allows for segments to be re-usable.
 Where possible I also followed a Test Driven Approach to ensure I got a working application.
@@ -75,7 +75,7 @@ Did not unit test Models as there is no logic to test or the LogisticsProgram as
 Used MSTest and Moq.
 
 Notes:
-Avoided static methods as I prefer to follow a OOP approach and even do static methods would be fine for this basic program I decided against them for better practice.
+Avoided static methods as I prefer to follow a OOP approach and even though static methods would be fine for this basic program I decided against them for better practice.
 
 Improvements:
 HTTPClient could be implemented better for greater abstraction or at least unit testability.
